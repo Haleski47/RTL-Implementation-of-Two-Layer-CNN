@@ -1,0 +1,136 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : MyDesign
+Version: M-2016.12-SP4
+Date   : Sun Nov 12 13:54:37 2017
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: slow   Library: NangateOpenCellLibrary_PDKv1_2_v2008_10_slow_nldm
+Wire Load Model Mode: top
+
+  Startpoint: q4/aTemp_reg[1]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: q4/z9_reg[0]
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                    Incr       Path
+  -----------------------------------------------------------
+  clock clk (rise edge)                  0.0000     0.0000
+  clock network delay (ideal)            0.0000     0.0000
+  q4/aTemp_reg[1]/CK (DFF_X2)            0.0000 #   0.0000 r
+  q4/aTemp_reg[1]/Q (DFF_X2)             0.5836     0.5836 f
+  q4/U11/ZN (INV_X4)                     0.0670     0.6505 r
+  q4/U13/ZN (INV_X4)                     0.0622     0.7127 f
+  q4/U442/ZN (NAND2_X2)                  0.1166     0.8294 r
+  q4/U448/ZN (NAND2_X2)                  0.0713     0.9006 f
+  q4/U598/ZN (INV_X4)                    0.0847     0.9853 r
+  q4/U29/ZN (NAND2_X1)                   0.0745     1.0598 f
+  q4/U33/ZN (INV_X2)                     0.1059     1.1657 r
+  q4/U529/ZN (INV_X2)                    0.1540     1.3197 f
+  q4/U3188/ZN (OAI22_X2)                 0.4565     1.7762 r
+  q4/U3187/Z (XOR2_X2)                   0.4407     2.2169 r
+  q4/U3186/ZN (XNOR2_X2)                 0.3642     2.5811 r
+  q4/U3185/Z (XOR2_X2)                   0.4002     2.9813 r
+  q4/U3184/Z (XOR2_X2)                   0.4269     3.4082 r
+  q4/U56/ZN (OAI22_X2)                   0.2214     3.6296 f
+  q4/U54/ZN (OAI21_X4)                   0.2110     3.8406 r
+  q4/U8896/ZN (INV_X4)                   0.0474     3.8880 f
+  q4/U52/ZN (AOI21_X4)                   0.3094     4.1973 r
+  q4/U645/ZN (OR2_X4)                    0.1980     4.3954 r
+  q4/U266/ZN (NAND2_X2)                  0.0724     4.4678 f
+  q4/U535/ZN (OAI21_X4)                  0.1634     4.6312 r
+  q4/U8822/ZN (INV_X4)                   0.0391     4.6703 f
+  q4/U106/ZN (AOI21_X2)                  0.3947     5.0650 r
+  q4/U7890/ZN (AOI21_X2)                 0.1312     5.1962 f
+  q4/U8707/ZN (INV_X4)                   0.0732     5.2695 r
+  q4/U7889/ZN (OAI21_X2)                 0.1190     5.3885 f
+  q4/U37/ZN (OAI21_X4)                   0.1964     5.5849 r
+  q4/U35/ZN (OAI21_X4)                   0.1393     5.7242 f
+  q4/U690/ZN (OAI21_X4)                  0.1678     5.8920 r
+  q4/U8612/ZN (INV_X4)                   0.0391     5.9311 f
+  q4/U104/ZN (AOI21_X2)                  0.3715     6.3027 r
+  q4/U7897/ZN (AOI21_X2)                 0.1289     6.4316 f
+  q4/U8586/ZN (INV_X4)                   0.0715     6.5031 r
+  q4/U7896/ZN (OAI21_X2)                 0.1201     6.6232 f
+  q4/U699/ZN (OAI21_X4)                  0.1937     6.8169 r
+  q4/U8528/ZN (INV_X4)                   0.0473     6.8642 f
+  q4/U2900/ZN (AOI21_X4)                 0.2972     7.1614 r
+  q4/U8527/ZN (INV_X4)                   0.0587     7.2200 f
+  q4/U265/ZN (OAI21_X2)                  0.1792     7.3992 r
+  q4/U2270/ZN (OAI21_X2)                 0.1730     7.5722 f
+  q4/U710/ZN (OAI21_X4)                  0.1854     7.7576 r
+  q4/U8262/ZN (INV_X4)                   0.0473     7.8050 f
+  q4/U2801/ZN (AOI21_X4)                 0.2972     8.1021 r
+  q4/U8261/ZN (INV_X4)                   0.0587     8.1608 f
+  q4/U246/ZN (OAI21_X2)                  0.1792     8.3400 r
+  q4/U2045/ZN (OAI21_X2)                 0.1652     8.5052 f
+  q4/U713/ZN (OAI21_X4)                  0.1829     8.6881 r
+  q4/U8260/ZN (INV_X4)                   0.0391     8.7272 f
+  q4/U95/ZN (AOI21_X2)                   0.3713     9.0985 r
+  q4/U2273/ZN (AOI21_X2)                 0.1289     9.2274 f
+  q4/U8259/ZN (INV_X4)                   0.0715     9.2989 r
+  q4/U2272/ZN (OAI21_X2)                 0.1038     9.4027 f
+  q4/U244/ZN (OAI21_X2)                  0.2327     9.6354 r
+  q4/U8258/ZN (INV_X4)                   0.0403     9.6757 f
+  q4/U2233/ZN (AOI21_X2)                 0.3950    10.0707 r
+  q4/U2279/ZN (AOI21_X2)                 0.1309    10.2016 f
+  q4/U8257/ZN (INV_X4)                   0.0730    10.2746 r
+  q4/U2277/ZN (OAI21_X2)                 0.1135    10.3881 f
+  q4/U8256/ZN (INV_X4)                   0.0859    10.4740 r
+  q4/U2231/ZN (AOI21_X2)                 0.0582    10.5322 f
+  q4/U2229/ZN (AOI21_X2)                 0.4137    10.9459 r
+  q4/U2304/ZN (AOI21_X2)                 0.1309    11.0767 f
+  q4/U8255/ZN (INV_X4)                   0.0730    11.1498 r
+  q4/U2303/ZN (OAI21_X2)                 0.1023    11.2520 f
+  q4/U2250/ZN (INV_X4)                   0.0984    11.3504 r
+  q4/U2248/ZN (AOI21_X2)                 0.0679    11.4183 f
+  q4/U8254/ZN (INV_X4)                   0.0704    11.4887 r
+  q4/U2246/ZN (OAI21_X2)                 0.1092    11.5980 f
+  q4/U2295/ZN (INV_X4)                   0.0817    11.6796 r
+  q4/U2293/ZN (AOI21_X2)                 0.0571    11.7368 f
+  q4/U242/ZN (AOI21_X2)                  0.3908    12.1275 r
+  q4/U7965/ZN (AOI21_X2)                 0.1142    12.2417 f
+  q4/U93/ZN (AOI21_X2)                   0.3971    12.6388 r
+  q4/U8042/ZN (AOI21_X2)                 0.1289    12.7677 f
+  q4/U8253/ZN (INV_X4)                   0.0715    12.8392 r
+  q4/U7904/ZN (OAI21_X2)                 0.1038    12.9431 f
+  q4/U77/ZN (OAI21_X2)                   0.2327    13.1758 r
+  q4/U8252/ZN (INV_X4)                   0.0403    13.2161 f
+  q4/U75/ZN (AOI21_X2)                   0.3310    13.5471 r
+  q4/U7963/ZN (AOI21_X2)                 0.1204    13.6675 f
+  q4/U17/ZN (AOI21_X4)                   0.3396    14.0071 r
+  q4/U7895/ZN (AOI21_X2)                 0.1167    14.1238 f
+  q4/U8206/ZN (INV_X4)                   0.0678    14.1916 r
+  q4/U7894/ZN (OAI21_X2)                 0.1009    14.2925 f
+  q4/U230/ZN (OAI21_X2)                  0.2474    14.5399 r
+  q4/U3610/ZN (OAI21_X2)                 0.1431    14.6830 f
+  q4/U2340/Z (XOR2_X2)                   0.2999    14.9829 f
+  q4/U2337/ZN (XNOR2_X2)                 0.2828    15.2657 f
+  q4/U135/ZN (NAND2_X2)                  0.1325    15.3982 r
+  q4/U7909/Z (BUF_X4)                    0.2819    15.6801 r
+  q4/U8034/ZN (OAI21_X2)                 0.1304    15.8105 f
+  q4/z9_reg[0]/D (DFF_X2)                0.0000    15.8105 f
+  data arrival time                                15.8105
+
+  clock clk (rise edge)                 16.2000    16.2000
+  clock network delay (ideal)            0.0000    16.2000
+  clock uncertainty                     -0.0500    16.1500
+  q4/z9_reg[0]/CK (DFF_X2)               0.0000    16.1500 r
+  library setup time                    -0.3322    15.8178
+  data required time                               15.8178
+  -----------------------------------------------------------
+  data required time                               15.8178
+  data arrival time                               -15.8105
+  -----------------------------------------------------------
+  slack (MET)                                       0.0073
+
+
+1

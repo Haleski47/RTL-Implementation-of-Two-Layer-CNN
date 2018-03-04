@@ -1,0 +1,10 @@
+/afs/unity.ncsu.edu/users/a/abansal4/564_Project_Demo/abansal4/v/MyDesign.v {1 {vlog -stats=none -work mti_lib -vopt /afs/unity.ncsu.edu/users/a/abansal4/564_Project_Demo/abansal4/v/MyDesign.v
+Model Technology ModelSim SE vlog 10.3b Compiler 2014.05 May 29 2014
+-- Compiling module DW02_mac
+-- Compiling module MyDesign
+-- Compiling module inputQuadrant
+
+Top level modules:
+	MyDesign
+
+} {} {}}

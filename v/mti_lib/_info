@@ -1,0 +1,543 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/afs/unity.ncsu.edu/users/a/abansal4/564_Project_Demo/abansal4/v
+Ydut_ifc
+Z1 DXx6 sv_std 3 std 0 22 <EOTafDcUY:cQeO^ICn]m3
+Z2 !s110 1510858902
+!i10b 1
+!s100 R?]M]ak[3@@g3[ERDfiZn2
+IUTMEz4iKiN_F9YFOMOK>d0
+Z3 V`JN@9S9cnhjKRR_L]QIcM3
+Z4 !s105 ece564_project_tb_top_demo_v_unit
+S1
+R0
+Z5 w1510858742
+Z6 8ece564_project_tb_top_demo.v
+Z7 Fece564_project_tb_top_demo.v
+L0 29
+Z8 OE;L;10.3b;59
+r1
+!s85 0
+31
+Z9 !s108 1510858901.930335
+Z10 !s107 /afs/eos.ncsu.edu/dist/synopsys2013/syn/dw/sim_ver/DW01_addsub.v|/afs/eos.ncsu.edu/dist/synopsys2013/syn/dw/sim_ver/DW02_mult_5_stage.v|/afs/eos.ncsu.edu/dist/synopsys2013/syn/dw/sim_ver/DW_ifp_addsub.v|/afs/eos.ncsu.edu/dist/synopsys2013/syn/dw/sim_ver/DW_ifp_mult.v|/afs/eos.ncsu.edu/dist/synopsys2013/syn/dw/sim_ver/DW_ifp_fp_conv.v|/afs/eos.ncsu.edu/dist/synopsys2013/syn/dw/sim_ver/DW_fp_ifp_conv.v|/afs/eos.ncsu.edu/dist/synopsys2013/syn/dw/sim_ver/DW_fp_dp2.v|/afs/eos.ncsu.edu/dist/synopsys2013/syn/dw/sim_ver/DW_fp_mac.v|/afs/eos.ncsu.edu/dist/synopsys2013/syn/dw/sim_ver/DW_fp_mult.v|/afs/eos.ncsu.edu/dist/synopsys2013/syn/dw/sim_ver/DW_fp_cmp_DG.v|/afs/eos.ncsu.edu/dist/synopsys2013/syn/dw/sim_ver/DW_fp_cmp.v|ece564_project_tb_top_demo.v|
+Z11 !s90 -reportprogress|300|-sv|ece564_project_tb_top_demo.v|
+!i113 1
+o-sv
+vdut_wrapper
+R1
+Z12 DXx4 work 9 operation 0 22 WeRCU_3lXJ7n8BdbLffY61
+Z13 DXx4 work 33 ece564_project_tb_top_demo_v_unit 0 22 Hl^Khhd7L`EJIYJQU49o=0
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 >gm6j0FLhM:=51lR9;RIg1
+In;Kh<FW_b>4a0nXlk1DIb1
+R4
+S1
+R0
+R5
+R6
+R7
+L0 1039
+R8
+R9
+R10
+R11
+!i113 1
+o-sv
+vDW01_addsub
+R1
+R2
+!i10b 1
+!s100 N6:TBHE[PY;z22iU5<:SD0
+IX?OLK;CMB[hHJzLV<V>>B0
+R3
+R4
+S1
+R0
+R5
+Z14 F/afs/eos.ncsu.edu/dist/synopsys2013/syn/dw/sim_ver/DW01_addsub.v
+R6
+R7
+L0 44
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+o-sv
+n@d@w01_addsub
+vDW02_mac
+Z15 !s110 1510858642
+!i10b 1
+!s100 ZcWSHa=QQ]9T[zlK8CCc>0
+I?L7?7hI]V:jScHTnM^2Eg0
+R3
+R0
+Z16 w1510518104
+F/afs/eos.ncsu.edu/dist/synopsys2013/syn/dw/sim_ver/DW02_mac.v
+Z17 8MyDesign.v
+Z18 FMyDesign.v
+FDW02_mac_function.inc
+L0 43
+R8
+r1
+!s85 0
+31
+Z19 !s108 1510858642.758984
+Z20 !s107 DW02_mac_function.inc|/afs/eos.ncsu.edu/dist/synopsys2013/syn/dw/sim_ver/DW02_mac.v|MyDesign.v|
+Z21 !s90 -reportprogress|300|MyDesign.v|
+!i113 1
+n@d@w02_mac
+vDW02_mult_5_stage
+R1
+R2
+!i10b 1
+!s100 JjQWR`Had378I;>cl>SVM0
+IMJa^<8`K:[DL`oMKZc1kW3
+R3
+R4
+S1
+R0
+R5
+Z22 F/afs/eos.ncsu.edu/dist/synopsys2013/syn/dw/sim_ver/DW02_mult_5_stage.v
+R6
+R7
+L0 38
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+o-sv
+n@d@w02_mult_5_stage
+vDW_fp_cmp
+R1
+Z23 !s110 1510858901
+!i10b 1
+!s100 d118MKka59A2_]9BbAZkk1
+ICdzA=0QgcTLDX;7C?T:c=2
+R3
+R4
+S1
+R0
+R5
+Z24 F/afs/eos.ncsu.edu/dist/synopsys2013/syn/dw/sim_ver/DW_fp_cmp.v
+R6
+R7
+L0 71
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+o-sv
+n@d@w_fp_cmp
+vDW_fp_cmp_DG
+R1
+R23
+!i10b 1
+!s100 ?^T3[[4In=Z9UYgi?Sc1:0
+IK4?AoYRbY5JMEIEb20c:X1
+R3
+R4
+S1
+R0
+R5
+Z25 F/afs/eos.ncsu.edu/dist/synopsys2013/syn/dw/sim_ver/DW_fp_cmp_DG.v
+R6
+R7
+L0 76
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+o-sv
+n@d@w_fp_cmp_@d@g
+vDW_fp_dp2
+R1
+R23
+!i10b 1
+!s100 4;>Sm9zlcaYBhM12ag96g1
+I^DOg=o56dM`INR0598PZl3
+R3
+R4
+S1
+R0
+R5
+Z26 F/afs/eos.ncsu.edu/dist/synopsys2013/syn/dw/sim_ver/DW_fp_dp2.v
+R6
+R7
+L0 77
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+o-sv
+n@d@w_fp_dp2
+vDW_fp_ifp_conv
+R1
+R23
+!i10b 1
+!s100 DE::k77THZ;D=`SB5Jak=0
+I`Hg2bE2joIAEXhTSPecWJ2
+R3
+R4
+S1
+R0
+R5
+Z27 F/afs/eos.ncsu.edu/dist/synopsys2013/syn/dw/sim_ver/DW_fp_ifp_conv.v
+R6
+R7
+L0 47
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+o-sv
+n@d@w_fp_ifp_conv
+vDW_fp_mac
+R1
+R23
+!i10b 1
+!s100 EczECn=IWE1boI;XUEJkK0
+ITjI`aSU;=o9<UTMJY<bFc1
+R3
+R4
+S1
+R0
+R5
+Z28 F/afs/eos.ncsu.edu/dist/synopsys2013/syn/dw/sim_ver/DW_fp_mac.v
+R6
+R7
+Z29 L0 60
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+o-sv
+n@d@w_fp_mac
+vDW_fp_mult
+R1
+R23
+!i10b 1
+!s100 @_8caJkG:TKeYodSfIcaB2
+IQJ^DS[9^SKiM>F:W1MYUY1
+R3
+R4
+S1
+R0
+R5
+Z30 F/afs/eos.ncsu.edu/dist/synopsys2013/syn/dw/sim_ver/DW_fp_mult.v
+R6
+R7
+R29
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+o-sv
+n@d@w_fp_mult
+vDW_ifp_addsub
+R1
+R23
+!i10b 1
+!s100 BLn]T_>UM]_1:ZMP@2z@]3
+IXhIl1VnTPPAfQ5hPla>5m0
+R3
+R4
+S1
+R0
+R5
+Z31 F/afs/eos.ncsu.edu/dist/synopsys2013/syn/dw/sim_ver/DW_ifp_addsub.v
+R6
+R7
+L0 64
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+o-sv
+n@d@w_ifp_addsub
+vDW_ifp_fp_conv
+R1
+R23
+!i10b 1
+!s100 hH3k0B=G`SAmDf57kc;1_0
+I_C7dMnZU1Vo:YYHk9L89E2
+R3
+R4
+S1
+R0
+R5
+Z32 F/afs/eos.ncsu.edu/dist/synopsys2013/syn/dw/sim_ver/DW_ifp_fp_conv.v
+R6
+R7
+L0 55
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+o-sv
+n@d@w_ifp_fp_conv
+vDW_ifp_mult
+R1
+R23
+!i10b 1
+!s100 i=zJlG_@V]?lh<BE=CMV@3
+IA;zGdA]EU9R@GVL^6LcmY2
+R3
+R4
+S1
+R0
+R5
+Z33 F/afs/eos.ncsu.edu/dist/synopsys2013/syn/dw/sim_ver/DW_ifp_mult.v
+R6
+R7
+L0 52
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+o-sv
+n@d@w_ifp_mult
+Xece564_project_tb_top_demo_v_unit
+R1
+R12
+VHl^Khhd7L`EJIYJQU49o=0
+r1
+!s85 0
+31
+!i10b 1
+!s100 VQ=Hf[OI059OzKDK83LV01
+IHl^Khhd7L`EJIYJQU49o=0
+!i103 1
+S1
+R0
+R5
+R6
+R7
+R24
+R25
+R30
+R28
+R26
+R27
+R32
+R33
+R31
+R22
+R14
+L0 142
+R8
+R9
+R10
+R11
+!i113 1
+o-sv
+Xece564_project_tb_top_v_unit
+R1
+DXx4 work 9 operation 0 22 cPRM;>565Mz95<XS;ROZ]2
+VX;lAAc09fa[X6J;g6igi53
+r1
+!s85 0
+31
+!i10b 1
+!s100 Z<bl^4Da?M^HbzDGfk0[I0
+IX;lAAc09fa[X6J;g6igi53
+!i103 1
+S1
+R0
+w1508901744
+8ece564_project_tb_top.v
+Fece564_project_tb_top.v
+L0 126
+R8
+Z34 !s108 1510858653.425259
+Z35 !s107 ece564_project_tb_top.v|sram.v|
+Z36 !s90 -reportprogress|300|-sv|sram.v|ece564_project_tb_top.v|
+!i113 1
+o-sv
+vinputQuadrant
+R15
+!i10b 1
+!s100 BA8SOi3g5JkXmSdQbo1123
+IUW>8bJaPf@W[[5<WdO8640
+R3
+R0
+R16
+R17
+R18
+L0 899
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!i113 1
+ninput@quadrant
+vMyDesign
+R15
+!i10b 1
+!s100 EazZGdHTS8ZKXSk`kej]Y2
+I7DX2OTgJnnlPn06CPladk0
+R3
+R0
+R16
+R17
+R18
+L0 9
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!i113 1
+n@my@design
+Xoperation
+R1
+VWeRCU_3lXJ7n8BdbLffY61
+r1
+!s85 0
+31
+!i10b 1
+!s100 11E?6YI:^^VW9TKc@7aVj2
+IWeRCU_3lXJ7n8BdbLffY61
+S1
+R0
+R5
+R6
+R7
+L0 150
+R8
+R9
+R10
+R11
+!i113 1
+o-sv
+vsram
+R1
+!s110 1510858653
+!i10b 1
+!s100 LG4?^KTDZ]i=8_<7n`:`j3
+IaDbf5Z;b8WAVCoREAnOQz1
+R3
+!s105 sram_v_unit
+S1
+R0
+w1510204226
+8sram.v
+Fsram.v
+L0 16
+R8
+r1
+!s85 0
+31
+R34
+R35
+R36
+!i113 1
+o-sv
+vtb_top
+R1
+R12
+R13
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 2]kSOHgzNW0YJ9o`o<zh^2
+Igk0b^IU[PT;A?[NU;56Ti3
+R4
+S1
+R0
+R5
+R6
+R7
+L0 938
+R8
+R9
+R10
+R11
+!i113 1
+o-sv
+4test
+R1
+R12
+R13
+R3
+r1
+!s85 0
+31
+!i10b 1
+!s100 1MgI_;dVKL8=7mb;4FH1c0
+I>4T=0G1G3?PhACoZ0fiN31
+R4
+S1
+R0
+R5
+R6
+R7
+L0 910
+R8
+R9
+R10
+R11
+!i113 1
+o-sv
